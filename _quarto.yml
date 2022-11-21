@@ -8,6 +8,8 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
+    - project_map.qmd
+    - thermal_imagery_data.qmd
     - summary.qmd
     - references.qmd
 
