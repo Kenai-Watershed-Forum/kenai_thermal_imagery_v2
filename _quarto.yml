@@ -2,12 +2,14 @@ project:
   type: book
 
 book:
-  title: "quarto_book_template"
+  title: "Kenai Thermal Imagery"
   author: "Benjamin Meyer"
   date: "11/18/2022"
   chapters:
     - index.qmd
     - intro.qmd
+    - project_map.qmd
+    - thermal_imagery_data.qmd
     - summary.qmd
     - references.qmd
 

@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 0a9d104c-fefc-425a-91f2-3dea04d0b9aa
+      url: 'https://quartopub.com/sites/kenaiwatershed/kenai_thermal_imagery'
