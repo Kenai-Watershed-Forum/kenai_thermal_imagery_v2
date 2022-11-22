@@ -1,9 +1,25 @@
-# Preface {.unnumbered}
+# Executive Summary {.unnumbered}
 
-This is a Quarto book.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
 
-```{r}
-1 + 1
-```
+•	Comments on DEC standards; zone of influence
+•	Notes from Sue for report: format to consider::: highlight what conservation actions are for each property. E.g. we reached out to the city of kenai for their comprehensive plan; sue communicated with DEC about zone of influence and their proposed changes to water temp criteria; mailers
+•	
+•	Executive summary + 1-2 pages methods, then appendix details actions for spot in each watershed.
+•	Audience::: agency folks, landowners who want details; repository manager; land managers (e.g. CIRI)
+•	E.g.:: ADFG has to bless water science for DNR to use it
+•	outline future steps, how to build on this
+•	e.g., how nice that USFWS has followed our lead
+
+
+future directions
+-	build relationship w/ USFWS pilot for TIR imagery
+-	commission tool to notify when KPB parcels change hands
+-	which of the 20ish M2S systems would be most valuable to get additional TIR data?
+o	Systems w/ gravel development
+o	Which rivers are zoned for mining?
+o	Are there systems where old gravel extractions need reclaiming?
+	Contact Robert R
+literature on how material excavation affects groundwater inputs?
+
+ --->>> read Snyder 2022 http://dx.doi.org/10.1002/ecs2.4265

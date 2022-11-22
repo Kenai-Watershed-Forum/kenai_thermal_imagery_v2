@@ -10,6 +10,8 @@ book:
     - intro.qmd
     - project_map.qmd
     - thermal_imagery_data.qmd
+    - temperature_loggers.qmd
+    - Applications.qmd
     - summary.qmd
     - references.qmd
 
