@@ -1,5 +1,16 @@
 # Executive Summary {.unnumbered}
 
+Cold Water Refugia, or areas within a stream that are persistently colder than surrounding areas, are critical features of wild salmon habitat throughout their range. Stream reaches with cold seeps and springs often result in much cooler water, which are increasingly important for salmon to keep cool as water temperatures have warmed. 
+
+Since 2020, three Kenai Peninsula nonprofits - Cook Inletkeeper, Kachemak Heritage Land trust, and Kenai Watershed Forum - have worked together to identify where cold water refugia are found locally, and studied how to work with landowners to conserve them. We used cutting-edge methods to locate cold water refugia with thermal infrared imagery, a technology similar to "night vision goggles" that shows heat contrast.
+
+We focused our research on tributaries of the Kenai and Kasilof rivers; specifically in the lower sections of streams outside of the federally protected Kenai National Wildlife refuge. Our goal was to identify land parcels that contained one or more cold water refugia features, and communicate information about these features and possible conservation strategies to land owners. 
+
+
+```{r post-qa, echo = F}
+#| label: fig-areamap
+#| fig-cap: "Tributaries of the lower Kenai and Kasilof rivers involved in this study. Locations of data logger and weather stations also shown."
+```
 
 
 •	Comments on DEC standards; zone of influence
@@ -23,3 +34,19 @@ o	Are there systems where old gravel extractions need reclaiming?
 literature on how material excavation affects groundwater inputs?
 
  --->>> read Snyder 2022 http://dx.doi.org/10.1002/ecs2.4265
+ 
+ Snyder et al 2022
+ 
+ - model upstream migration in context of cwr
+ - use of cwr decreased sublethal exposure accumulation
+ - Mean percent energy loss attributed
+to future warmer mainstem temperatures was at least two times larger than
+the difference in energy used in simulations without CWRs for steelhead and
+salmon.
+- cwrs defined by EPA as mean August discharge >0.28 m3/s (~10 cubic feet per second)
+estimated as likely to provide adequate depths and volumes
+for thermoregulation of adult salmon and steelhead for tributary
+and plume components (https://www.epa.gov/columbiariver/columbia-river-cold-water-refuges-plan)
+ - "we defined a cold-water refuge as a location that had a temperature threshold of 2C less than that of the Columbia River at some time during the adult salmon and steelhead
+migration."
+ --> probably not defined for juveniles ...anywhere?!?!

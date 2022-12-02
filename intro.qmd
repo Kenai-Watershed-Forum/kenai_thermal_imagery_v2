@@ -55,11 +55,16 @@ This document contains data and analysis related to the Kenai River Thermal Imag
 
 A two-page project summary titled, "Science Based Land Conservation: Cold Water Stepping Stones" is outlined below. A full size version of this information sheet is accessible at the link in the caption below @fig-summary-sheet.
 
-All code used to generate this report is available in the project's GitHub repository at <https://github.com/Kenai-Watershed-Forum/kenai_thermal_imagery>.
+All code used to generate this report is available in the project's GitHub repository at <https://github.com/Kenai-Watershed-Forum/kenai_thermal_imagery_v2>.
 
 ```{r , echo = F, out.width=400, out.height=500}
 #| label: fig-summary-sheet
-#| fig-cap: "Project Summary Sheet, download at https://bit.ly/kenai_tir"
+#| fig-cap: "Project Summary Sheet"
 knitr::include_graphics('images/project_summary_img.jpg')
 
 ```
+
+```{r echo = F}
+xfun::embed_file("documents/draft Kenai Thermal Imagery Project Overview (11-18-2022).pdf", text = "Download Project Summary Sheet")
+```
+
