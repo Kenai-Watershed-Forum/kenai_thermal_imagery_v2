@@ -2,9 +2,9 @@
 
 ## From Thermal Infrared Imagery to Action
 
-Cold Water Refugia, or areas within a stream that are persistently colder than surrounding areas, are critical features of wild salmon habitat throughout their range. Stream reaches with cold seeps and springs often result in much cooler water, which are increasingly important for salmon to keep cool as water temperatures have warmed. Some land management practices have the potential to diminish or extinguish cold water refugia such as groundwater withdrawl and construction of impervious surfaces, thus there is value and urgency in identifying and educating land owners and managers about them.
+Cold Water Refugia, or areas within a stream that are persistently colder than surrounding areas, are critical features of wild salmon habitat throughout their range. Stream reaches with cold seeps and springs often result in much cooler water, which are increasingly important for salmon to keep cool as water temperatures have warmed. Some land management practices can diminish or extinguish cold water refugia, such as groundwater withdrawl and construction of impervious surfaces. In this project, we identified and educated land owners and managers about cold water refugia in order to promote their conservation .
 
-Since 2020, three nonprofits - Cook Inletkeeper, Kachemak Heritage Land trust, and Kenai Watershed Forum - have worked together to identify where cold water refugia are found in the Kenai Peninsula lowlands region, and studied how to work with landowners to conserve them. We used cutting-edge methods to locate cold water refugia with thermal infrared imagery, a technology similar to night vision goggles that shows heat contrast. Our resulting treasure map of cold water refugia locations is a valuable tool for prioritizing conservation and outreach efforts.
+Since 2020, three nonprofits - Cook Inletkeeper, Kachemak Heritage Land trust, and Kenai Watershed Forum - have worked together to identify where cold water refugia are found in the Kenai Peninsula lowlands region. We used cutting-edge methods to locate cold water refugia with thermal infrared imagery, a technology similar to night vision goggles that shows heat contrast. Our resulting treasure map of cold water refugia locations is a valuable tool for prioritizing conservation and outreach efforts.
 
 We focused our research on tributaries of the Kenai and Kasilof rivers; specifically in the lower sections of streams outside of the federally protected Kenai National Wildlife refuge. Our goal was to identify land parcels that contained one or more cold water refugia features, and communicate information about these features and possible conservation strategies to land owners.
 
@@ -22,19 +22,29 @@ Conservation actions that will result from these efforts include parcel acquisit
 
 ## The Future
 
-Our efforts demonstrate the value of recognizing cold water refugia as a conservation asset. In order to ensure that conserving cold water refugia are considered as best practice on a more widespread basis, we recommend moving towards codifying their technical and legal definition. For example, the U.S. Environmental Protection Agency defines "Source Water Protection Areas" for groundwater sources used for drinking water, which delineate geographic areas that contributes to the drinking water supply[^index-1]. Similar logic could apply towards defining the extent of connected landscape that supplies cold water refugia, as recently demonstrated by researchers with Kachemak Bay National Estuarine Research Reserve in Homer, Alaska [@gerlach2021].
+Our efforts demonstrate the value of recognizing cold water refugia as a conservation asset. In order to encourage conserving cold water refugia on a more widespread basis, we recommend moving towards codifying their technical and legal definition. For example, the U.S. Environmental Protection Agency (U.S. EPA) defines "Source Water Protection Areas" for groundwater sources used for drinking water, which delineate geographic areas that contributes to the drinking water supply[^index-1]. Similar logic could apply towards defining the extent of connected landscapes that supply cold water refugia, as recently demonstrated by researchers with Kachemak Bay National Estuarine Research Reserve in Homer, Alaska [@gerlach2021]. In an example from the Colombia River in the Pacific Northwest, the U.S. EPA has taken detailed steps to identify, define, and recommend conservation actions for cold water refugia. Here, cold water refugia were defined by quantitative flow volumes and their level of contrast with connected, warmer water bodies[^index-2].
 
 [^index-1]: https://www.epa.gov/sourcewaterprotection/delineate-source-water-protection-area
 
-In the Columbia River the EPA has taken detailed steps to identify, define, and recommend conservation actions for cold water refugia. In the Columbia River, cold water refugia were defined by quantitative flow volumes and their level of contrast with connected, warmer water bodies[^index-2].
-
 [^index-2]: https://www.epa.gov/columbiariver/columbia-river-cold-water-refuges-plan
 
-Existing efforts to technically define cold water refugia have focused on physiological needs of adult upstream migration. However it is widely documented that salmon benefit from a mosaic of water temperature environments throughout their freshwater life cycle, such as when juvenile fry migrate between colder and warmer and areas to feed and digest [@armstrong2013].
+Existing efforts to technically define cold water refugia have focused on physiological needs of adult upstream migration. However it is widely documented that salmon benefit from a mosaic of water temperature environments in all parts of their development, such as when juvenile fry migrate between colder and warmer and areas to feed and digest [@armstrong2013]. It is recommended that technical definitions also consider the needs of juvenile salmon.
 
-Ultimately, the long-term persistence of these features will be buoyed by
+## Next Steps
 
-uild relationship w/ USFWS pilot for TIR imagery - commission tool to notify when KPB parcels change hands - which of the 20ish M2S systems would be most valuable to get additional TIR data? o Systems w/ gravel development o Which rivers are zoned for mining? o Are there systems where old gravel extractions need reclaiming?  Contact Robert R literature on how material excavation affects groundwater inputs?
+We will continue to use our existing dataset to prioritize land conservation efforts in the Kenai Peninsula lowlands area. Currently we have surveyed the lower sections of four tributaries, while the Mountains to Sea document highlights twenty priority river corridors as conservation targets.
+
+Specific actions that will continue to support the goals of this project include:
+
+-   Identifying where current, future, and retired material extraction sites (i.e. gravel pits) may influence conservation goals in the 20 Mountains to Stream corridors
+
+-   Continue to communicate with the local U.S. Fish and Wildlife office, which in 2022 initiated an effort to gather aerial thermal infrared imagery in local river corridors used by migrating adult coho salmon.
+
+-   Commission a web-based tool that would send automatic notifications when land parcels change ownership status in the Mountains to Sea river corridors, allowing for Kachemak Heritage Land trust to be immediately notified of potential conservation opportunities
+
+-   Convert the thermal imagery map files acquired from this project to a format accessible from an online web browser or Google Earth
+
+The
 
 ```{r post-qa, echo = F}
 #| label: fig-areamap

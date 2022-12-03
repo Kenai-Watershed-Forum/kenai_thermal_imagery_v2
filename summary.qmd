@@ -5,3 +5,7 @@ In summary, this book has no content whatsoever.
 ```{r}
 1 + 1
 ```
+
+muhlfield 2021 https://www.nature.com/articles/s41558-021-01013-w
+
+armstrong 2021 https://www.nature.com/articles/s41558-021-00994-y
