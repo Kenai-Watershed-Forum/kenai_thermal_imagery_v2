@@ -3,6 +3,20 @@ title: "Project Map"
 editor: visual
 ---
 
+Our research focused on four streams in the Kenai Peninsula lowlands region in southcentral Alaska:
+
+-   Three tributaries of the lower Kenai River
+
+    -   Moose River
+
+    -   Beaver Creek
+
+    -   Funny River
+
+-   One tributary of the lower Kasilof River
+
+    -   Crooked Creek
+
 The ArcGIS Online project map may be accessed below or at [ArcGIS Online (Click Here: https://arcg.is/0vaueq)](https://arcg.is/0vaueq).
 
 The online map contains layers with the following data:
