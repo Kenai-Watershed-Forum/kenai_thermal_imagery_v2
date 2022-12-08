@@ -1,11 +1,16 @@
 # Summary
 
-In summary, this book has no content whatsoever.
 
-```{r}
-1 + 1
-```
+
 
 muhlfield 2021 https://www.nature.com/articles/s41558-021-01013-w
 
 armstrong 2021 https://www.nature.com/articles/s41558-021-00994-y
+
+lessons from kenai decision support tool
+
+loink to google doc for future collab
+
+https://gis.audubon.org/kenai/
+
+https://gis.audubon.org/kenai/documentation/KenaiDecisionSupportTool_UsersManual_9Jan2014.pdf

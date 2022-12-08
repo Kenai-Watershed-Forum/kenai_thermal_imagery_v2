@@ -3,7 +3,7 @@ title: "Applications"
 editor: visual
 ---
 
-We applied our findings of where cold-water inputs were located towards education and outreach opportunities in the Central Kenai Peninsula region. We used a variety of methods including comments on public land management plans, direct mailers, 
+We applied our findings of where cold-water inputs were located towards education and outreach opportunities in the Central Kenai Peninsula region. We used a variety of methods including comments on public land management plans, direct mailers, cooperative planning with peer researchers, and communication with state and federal agency staff.
 
 ## Comments on the 2021 City of Kenai Land Management Plan
 
@@ -41,4 +41,23 @@ A PDF proof version of the postcard may be accessed below:
 xfun::embed_file("documents/2022_08_17_M2S_Thermal_Imagery_LO_Postcard.pdf", text = "Download Landowner Outreach Postcard")
 ```
 
+### Cooperative Outreach Planning with Peer Researchers
+
+- describe event led by CIK @ mat su symposium
+
+
+### Communication with State and Federal Agency Staff
+
+- conversation w/ DEC -- research has to be blessed by ADFG before application in regulatory context
+
+
+### General Recommendations by Stream Corridor
+
+#### Beaver Creek
+
+#### Funny River
+
+#### Moose River
+
+#### Crooked Creek
 

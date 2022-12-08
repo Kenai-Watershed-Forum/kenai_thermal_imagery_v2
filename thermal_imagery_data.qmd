@@ -32,7 +32,7 @@ knitr::include_graphics('images/example_TIR_figure.jpg')
 
 ## Introduction
 
-To acquire and prepare thermal aerial infrared imagery, we worked with [NV5 Geospatial](https://www.nv5.com/geospatial/) (formerly Watershed Sciences, Inc), an experienced contractor who has led prior efforts in the region to gather thermal aerial infrared data for aquatic habitat research [@mauger2015b]. On July 5, 2020, NV5 collected thermal infrared imagery from a helicopter-mounted camera for the four steams on the Kenai Peninsula lowlands that were the focus of this study (Beaver Creek, Funny River, Moose River, and Crooked Creek). All streams were flown during the afternoon hours in order to maximize the thermal contrast between the river's water and the banks.
+To acquire and prepare thermal aerial infrared imagery, we worked with [NV5 Geospatial](https://www.nv5.com/geospatial/) (formerly Watershed Sciences, Inc), an experienced contractor who has led prior efforts in the region to gather thermal aerial infrared data for aquatic habitat research [@watershedsciences2010]. On July 5, 2020, NV5 collected thermal infrared imagery from a helicopter-mounted camera for the four steams on the Kenai Peninsula lowlands that were the focus of this study (Beaver Creek, Funny River, Moose River, and Crooked Creek). All streams were flown during the afternoon hours in order to maximize the thermal contrast between the river's water and the banks.
 
 The surveys extend for a total length of 59.1 km of the streams. Flight transects proceeded from the mouth of each stream in an upstream direction. The data were collected to aid the team in identifying the spatial variability in surface temperatures as well as thermal influence of point sources, tributaries, and surface springs.
 
@@ -52,8 +52,7 @@ xfun::embed_file("documents/TIR_Technical_Data_Report_Kenai_Rivers_20210107.pdf"
 
 ```
 
-<br>
-The image raster files are of a large size (\~3 GB) and may be acquired by contacting staff at Cook Inletkeeper (sue\@inletkeeper.org), Kenai Watershed Forum (hydrology\@kenaiwatershed.org), or Kachemak Heritage Land Trust (info\@kachemaklandtrust.org).
+<br> The image raster files are of a large size (\~3 GB) and may be acquired by contacting staff at Cook Inletkeeper (sue\@inletkeeper.org), Kenai Watershed Forum (hydrology\@kenaiwatershed.org), or Kachemak Heritage Land Trust (info\@kachemaklandtrust.org).
 
 <br>
 
@@ -110,12 +109,10 @@ tbl1 <- tbl1 %>%
 
 @fig-parcel-plot summarizes the ownership type of these parcels by general category of owner type.
 
-
 ```{r, include = F}
 t <- tbl1 %>%
   count(Stream_Name,Owner_Type) 
 ```
-
 
 ```{r parcel-plot, echo = FALSE}
 #| label: fig-parcel-plot
