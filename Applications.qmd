@@ -19,21 +19,21 @@ Access PDFs of submitted Public Comments below:
 xfun::embed_file("documents/City of Kenai Land Management Plan comments 20221031.zip", text = "City of Kenai 2021 Land Management Plan Comments")
 ```
 
-
-
 ## Landowner Outreach
 
 ### Letter
+
 We composed a letter addressed to landowners whose property contains cold water features that flow in to one of our study streams. This letter describes the nature of the project and the value of cold water features to salmon habitat. Landowners are invited to contact the researchers if they would like more information about their specific property.
 
-A draft version of the letter to landowners may be accessed below: 
+A draft version of the letter to landowners may be accessed below:
 
 ```{r, echo = F}
 xfun::embed_file("documents/2022_05_04_AKSSF_Thermal_Imagery_LO_Letter_BM_v3.docx", text = "Download Landowner Outreach Letter")
 ```
 
 ### Postcard
-We designed and mailed a post card to landowners whose property contains cold water features that flow in to one of our study streams. The postcard notifies landowners that their specific parcels are of high conservation value, and encourages them contact project scientists to learn more about best practices. 
+
+We designed and mailed a post card to landowners whose property contains cold water features that flow in to one of our study streams. The postcard notifies landowners that their specific parcels are of high conservation value, and encourages them contact project scientists to learn more about best practices.
 
 A PDF proof version of the postcard may be accessed below:
 
@@ -41,23 +41,28 @@ A PDF proof version of the postcard may be accessed below:
 xfun::embed_file("documents/2022_08_17_M2S_Thermal_Imagery_LO_Postcard.pdf", text = "Download Landowner Outreach Postcard")
 ```
 
-### Cooperative Outreach Planning with Peer Researchers
+### Communication with local State and Federal Agency Staff
 
-- describe event led by CIK @ mat su symposium
+We met with state and federal agency staff to discuss the nature of our research and its applications.
 
+-   In conversations with staff from the Alaska Department of Environmental Conservation (ADEC), we learned more about the process by which new research such as ours may be applied in the future. Emerging research on how water quality issues may affect freshwater fish habitat is typically first evaluated by the Alaska Department of Fish and Game (ADF&G) before being evaluated in a regulatory context such as ADEC. With that in mind, our final reports will be made available to ADF&G staff.
 
-### Communication with State and Federal Agency Staff
-
-- conversation w/ DEC -- research has to be blessed by ADFG before application in regulatory context
-
+-   On June 1, 2022 we met with local U.S. Fish and Wildlife staff to discuss the nature of thermal infrared imagery gathered in summer 2022 for a separate USFWS project related to adult coho salmon movement. These data are currently being evaluated, and it is our hope that they may later also be applicable for the purposes of identify cold water refugia in the conservation priority corridors identified in the Mountains to Sea report[@morton2015]
 
 ### General Recommendations by Stream Corridor
 
-#### Beaver Creek
+#### Beaver CreeK
+
+"very parcelized"
 
 #### Funny River
 
+"Lots of state ownership, only 7 private parcels"
+
 #### Moose River
+
+"Too parcelized for meaningful land acquisition?
 
 #### Crooked Creek
 
+"very parcelized"

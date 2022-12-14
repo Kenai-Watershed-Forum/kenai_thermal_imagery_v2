@@ -24,15 +24,11 @@ library(kableExtra)
 library(hms)
 ```
 
-```{r TIR-fig1, echo = F, fig.cap = "Example of airborne thermal infrared imagery showing temperature contrast in a stream. A cold water inflow (purple and blue colors) enters the main channel (yellow color). Figure from NV5 Geospatial consultants report.", out.height=300, out.height=300}
-
-knitr::include_graphics('images/example_TIR_figure.jpg')
-
-```
-
 ## Introduction
 
-To acquire and prepare thermal aerial infrared imagery, we worked with [NV5 Geospatial](https://www.nv5.com/geospatial/) (formerly Watershed Sciences, Inc), an experienced contractor who has led prior efforts in the region to gather thermal aerial infrared data for aquatic habitat research [@watershedsciences2010]. On July 5, 2020, NV5 collected thermal infrared imagery from a helicopter-mounted camera for the four steams on the Kenai Peninsula lowlands that were the focus of this study (Beaver Creek, Funny River, Moose River, and Crooked Creek). All streams were flown during the afternoon hours in order to maximize the thermal contrast between the river's water and the banks.
+To acquire and prepare thermal aerial infrared imagery, we worked with [NV5 Geospatial](https://www.nv5.com/geospatial/)[^thermal_imagery_data-1] (formerly Watershed Sciences, Inc), a contractor who has led prior efforts in the region to gather thermal aerial infrared data for aquatic habitat research [@watershedsciences2010]. On July 5, 2020, NV5 collected thermal infrared imagery from a helicopter-mounted camera for the four steams on the Kenai Peninsula lowlands that were the focus of this study (Beaver Creek, Funny River, Moose River, and Crooked Creek). All streams were flown during the afternoon hours in order to maximize the thermal contrast between the river's water and the banks.
+
+[^thermal_imagery_data-1]: https://www.nv5.com/geospatial/
 
 The surveys extend for a total length of 59.1 km of the streams. Flight transects proceeded from the mouth of each stream in an upstream direction. The data were collected to aid the team in identifying the spatial variability in surface temperatures as well as thermal influence of point sources, tributaries, and surface springs.
 
@@ -58,7 +54,7 @@ xfun::embed_file("documents/TIR_Technical_Data_Report_Kenai_Rivers_20210107.pdf"
 
 ## Parcel data summary
 
-We generated a table in GIS (ArcMap Pro 10.8.1) of parcels in the Kenai Peninsula Borough that intersect with cold-water inputs (e.g. seeps, springs) within the surveyed areas of Beaver Creek, Crooked Creek, Moose River, and Funny River.
+We generated a table in GIS (ArcMap Pro 10.8.1) of parcels in the Kenai Peninsula Borough that intersect with cold-water inputs (e.g. seeps, springs) within the surveyed areas of Beaver Creek, Crooked Creek, Moose River, and Funny River. We identified a total of n = 31 unique parcels containing a total of n = 63 unique cold water refugia features.
 
 ```{r, include = F}
 
@@ -112,6 +108,10 @@ tbl1 <- tbl1 %>%
 ```{r, include = F}
 t <- tbl1 %>%
   count(Stream_Name,Owner_Type) 
+
+z <- tbl1 %>%
+  select('Parcel ID') %>%
+  distinct()
 ```
 
 ```{r parcel-plot, echo = FALSE}
@@ -144,7 +144,9 @@ xfun::embed_file("documents/Kenai TIR ground truthing datasheets.pdf", text = "D
 
 <br>
 
-@fig-gtobs through @fig-gt-tir-obs-funny visualize water temperature data sourced from the significant features in aerial imagery on July 20, 2020 along with ground-truthed measurements from July 7-8, 2021. In general we observed symmetry in the pattern of temperature contrast for both our ground-truthed data as well as temperatures observed from the thermal aerial infrared dataset.
+In general we observed symmetry in the pattern of temperature contrast for both our ground-truthed data as well as temperatures observed from the thermal aerial infrared dataset. This indicates that the temperature contrasts identified from the aerial imagery are persistent and not ephemeral. @fig-gt-tir-obs-beaver through @fig-gt-tir-obs-funny visualize water temperature data sourced from the significant features in aerial imagery on July 20, 2020 along with ground-truthed measurements from July 7-8, 2021.
+
+Note that the temperature data reported from thermal infrared imagery observations consists of multiple statistics, whereas the ground-truth values consist of a single observation. Multiple statistics are reported for the aerial thermal infrared temperature values as a result of the sampling method used, wherein ten surface temperatures within a two-meter radius are evaluated. See the, "Interpretation and Sampling" section in the technical report from NV5 Geospatial Consultants, available for download above [@nv5geospatial2021].
 
 <br>
 
@@ -270,7 +272,9 @@ time_diff <- gt_long %>%
 
 ```
 
-```{r fig-gtobs, echo = F, fig.cap = "Cold Feature vs. Mainstem, ground truth observations water temperature data."}
+```{r fig-gtobs, echo = F, fig.cap = "Cold Feature vs. Mainstem, ground truth observations water temperature data.", eval = F}
+
+# 12/13/2022 THIS FIGURE IS HIDDEN IN REPORT; DETERMINED TO BE REDUNDANT WITH FIGURES BELOW
 
 #| label: fig-gtobs
 #| fig-cap: "Cold Feature vs. Mainstem, ground truth observations water temperature data"
@@ -296,7 +300,9 @@ gt_long %>%
 
 <br>
 
-```{r fig-tir-obs, echo = F, fig.cap = "Cold Feature vs. Mainstem, thermal infrared water temperature data."}
+```{r fig-tir-obs, echo = F, fig.cap = "Cold Feature vs. Mainstem, thermal infrared water temperature data.", eval = F}
+
+# 12/13/2022 THIS FIGURE IS HIDDEN IN REPORT; DETERMINED TO BE REDUNDANT WITH FIGURES BELOW
 
 #| label: fig-tir-obs
 #| fig-cap: "Cold Feature vs. Mainstem, thermal infrared water temperature data."

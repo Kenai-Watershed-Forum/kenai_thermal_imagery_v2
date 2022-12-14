@@ -9,8 +9,16 @@ armstrong 2021 https://www.nature.com/articles/s41558-021-00994-y
 
 lessons from kenai decision support tool
 
-loink to google doc for future collab
+link to google doc for future collab
 
 https://gis.audubon.org/kenai/
 
 https://gis.audubon.org/kenai/documentation/KenaiDecisionSupportTool_UsersManual_9Jan2014.pdf
+
+VII.	Objectives
+•	Identify areas of cold water refugia within four streams on the Kenai Peninsula using TIR imagery
+•	Initiate discussion with landowners about potential land conservation efforts
+
+spreadsheet of thermal features available to project managers only at the moment to presver landowner privacy
+
+example of initiating conversaion: sgc

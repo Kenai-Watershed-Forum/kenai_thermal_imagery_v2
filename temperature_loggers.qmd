@@ -413,6 +413,7 @@ The average absolute difference in temperature between the two logger sites in B
 Lower Crooked Creek has two adjacent water temperature monitoring locations within 20 m of each other. Further details on these two sites are described below, and figure \@fig-cc-map shows locations of the two sites.
 
 ```{r fig-cc-map, echo = F, out.height=400, out.height=400}
+
 #| label: fig-cc-map
 #| fig-cap: "Lower Crooked Creek temperature monitoring sites"
 
@@ -449,6 +450,7 @@ One possible explanation for why technicians failed to observe the cold water se
 Additionally, these results exemplify the role of cold water inputs in maintaining thermal refugia for salmonids in watersheds such as Crooked Creek. Note in figure @fig-cc-plots that water temperature within the cold water plume in the main channel was often 1.5 °C cooler than the non-influenced location. Temperature differentials of this nature help allow salmonids to access a diverse portfolio of thermal environments important to functions throughout their life cycle such as migration, metabolism, and foraging.
 
 ```{r fig-cc-plots, echo = F, out.width = "70%", out.height="70%"}
+
 #| label: fig-cc-plots
 #| fig-cap: "Water temperature time series from Lower Crooked Creek at two nearby loggers (~5 m apart). a.) Upstream of a small coldwater tributary, b.) downstream of small coldwater tributary, c.) difference values between the loggers. Note different y-axis ranges."
 
@@ -526,8 +528,11 @@ lcc_max_abs_diff <- format(round(lcc_stats$max_abs_diff, 2 ), nsmall = 2)
 Figure @fig-extent-fig displays temporal extent of currently available water temperature at each site
 
 ```{r extent-fig, echo = F}
+
 #| label: fig-extent-fig
 #| fig-cap: "Temporal extent of water temperature logger data"
+
+
 dat %>%
   filter(useData == 1,
          !is.na(date_time)) %>%
