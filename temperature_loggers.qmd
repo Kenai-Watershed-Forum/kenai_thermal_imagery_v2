@@ -527,7 +527,7 @@ lcc_max_abs_diff <- format(round(lcc_stats$max_abs_diff, 2 ), nsmall = 2)
 
 Figure @fig-extent-fig displays temporal extent of currently available water temperature at each site
 
-```{r extent-fig, echo = F}
+```{r fig-extent-fig, echo = F}
 
 #| label: fig-extent-fig
 #| fig-cap: "Temporal extent of water temperature logger data"
