@@ -61,9 +61,13 @@ xfun::embed_file("documents/AKSSF Thermal Imagery SOW.docx", text = "Download th
 
 ```
 
-This report is generated using Quarto, an open source publishing platform. It is best accessed online at the url <https://kenaiwatershed.quarto.pub/kenai_thermal_imagery/>. The contents of this report can also be downloaded as an Microsoft Word document here:
+<br>
 
-```{r echo = F}
+This report is generated using Quarto, an open source publishing platform. It is best accessed online at the url <https://kenaiwatershed.quarto.pub/kenai_thermal_imagery/>. 
+
+```{r echo = F, eval = F}
+
+# The contents of this report can also be downloaded as an Microsoft Word document here:
 
 xfun::embed_file("_book/Kenai-Thermal-Imagery_draft.docx", text = "Download This Report as a Microsoft Word Document")
 

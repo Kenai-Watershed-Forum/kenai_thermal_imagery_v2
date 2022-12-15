@@ -100,6 +100,9 @@ colnames(tbl1) <- names
 tbl1 <- tbl1 %>%
   arrange(Stream_Name)
 
+# export tbl1 for later use in another chapter
+write.csv(tbl1,"output/tbl1_parcel_data.csv", row.names = F)
+
 
 ```
 
@@ -115,12 +118,23 @@ z <- tbl1 %>%
 ```
 
 ```{r parcel-plot, echo = FALSE}
+
 #| label: fig-parcel-plot
 #| fig-cap: "Parcel ownership by land owner type for lands containing cold water refugia in our study streams"
 
+# prep data table such that stream names have words stacked atop each other
+tbl1 <- tbl1 %>%
+  mutate(Stream_Name1 = case_when(
+    Stream_Name == "Beaver Creek" ~ "Beaver\nCreek",
+    Stream_Name == "Crooked Creek" ~ "Crooked\nCreek",
+    Stream_Name == "Funny River" ~ "Funny\nRiver",
+    Stream_Name == "Moose River" ~ "Moose\nRiver"
+  ))
+
+# plot
 ggplotly(
   p <- tbl1 %>%
-    ggplot(aes(Stream_Name, fill = Owner_Type)) +
+    ggplot(aes(Stream_Name1, fill = Owner_Type)) +
     geom_bar(position = position_dodge2(preserve = "single")) +
     xlab("") +
     ylab("Parcel Count") +
@@ -258,8 +272,11 @@ gt_long <- gt %>%
   rename("stat_name" = "c") %>%
   filter(stat_type != "stdev")
 
-
-# plot ground truth observations, feature vs main channel
+# prepare data table so that axis label "cold feature" has vertically stacked words
+gt_long <- gt_long %>%
+  mutate(hydro_obs_type = case_when(
+    hydro_obs_type == "Cold Feature" ~ "Cold\nFeature"
+  ))
 ```
 
 ```{r, echo = F}
@@ -326,7 +343,7 @@ gt_long %>%
 
 <br>
 
-```{r fig-gt-tir-obs-beaver, echo = F, fig.cap = "Beaver Creek water temperatures, ground truth and thermal infrared imagery observations."}
+```{r fig-gt-tir-obs-beaver, echo = F, fig.cap = "Beaver Creek water temperatures, ground truth and thermal infrared imagery observations.", fig.height= 8, fig.width=6}
 
 #| label: fig-gt-tir-obs-beaver
 #| fig-cap: "Beaver Creek water temperatures, ground truth and thermal infrared imagery observations."
@@ -357,7 +374,7 @@ gt_long %>%
 
 <br>
 
-```{r fig-gt-tir-obs-crooked, echo = F, fig.cap = "Crooked Creek water temperatures, ground truth and thermal infrared imagery observations."}
+```{r fig-gt-tir-obs-crooked, echo = F, fig.cap = "Crooked Creek water temperatures, ground truth and thermal infrared imagery observations.", fig.height= 6, fig.width=7}
 
 #| label: fig-gt-tir-obs-crooked
 #| fig-cap: Crooked Creek water temperatures, ground truth and thermal infrared imagery observations.
@@ -387,7 +404,7 @@ gt_long %>%
 
 <br>
 
-```{r fig-gt-tir-obs-funny, echo = F, fig.cap = "Funny River water temperatures, ground truth and thermal infrared imagery observations."}
+```{r fig-gt-tir-obs-funny, echo = F, fig.cap = "Funny River water temperatures, ground truth and thermal infrared imagery observations.", fig.height= 5, fig.width=6}
 
 #| label: fig-gt-tir-obs-funny
 #| fig-cap: Funny River water temperatures, ground truth and thermal infrared imagery observations.
@@ -433,7 +450,7 @@ Data sources used to assess parcel-specific conservation strategies include:
 
 **Link: [Thermal Imagery Collaborative Assessment](https://docs.google.com/document/d/1TZcTMBOL6WDCyvOODZlGeuCd-1sPWzYsurWtx7MJoUE/edit)**
 
-An example map is shown in \@fig-example-map.
+An example map is shown in @fig-example-map.
 
 ```{r fig-example-map, echo = F, out.height=325, out.width=375, fig.cap = "Example of airborne thermal infrared imagery map with parcel overlay."}
 

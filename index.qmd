@@ -1,6 +1,6 @@
 # Executive Summary {.unnumbered}
 
-```{r TIR-fig1, echo = F, fig.cap = "Example of airborne thermal infrared imagery showing temperature contrast in a stream. A cold water inflow (purple and blue colors) enters the main channel (yellow color). Figure from NV5 Geospatial consultants report.", out.height=300, out.height=300}
+```{r TIR-fig1, echo = F, fig.cap = "Example of airborne thermal infrared imagery showing temperature contrast in a stream. A cold water inflow (purple and blue colors) enters the main channel (yellow color). Figure from NV5 Geospatial consultants.", out.height=300, out.height=300}
 
 knitr::include_graphics('images/example_TIR_figure.jpg')
 
@@ -12,7 +12,7 @@ Cold Water Refugia, or areas within a stream that are persistently colder than s
 
 Since 2020, three nonprofits - Cook Inletkeeper, Kachemak Heritage Land trust, and Kenai Watershed Forum - have worked together to identify where cold water refugia are found in the Kenai Peninsula lowlands, a region where productive wild salmon habitat intersects with a growing development footprint. We used cutting-edge methods to locate cold water refugia with thermal infrared imagery, a technology similar to night vision goggles that shows heat contrast. Our resulting "treasure map" of cold water refugia locations is a valuable tool for prioritizing conservation and outreach efforts.
 
-In this project we focused our research on tributaries of the Kenai and Kasilof rivers; specifically in the lower sections of streams outside of the federally protected Kenai National Wildlife refuge as outlined in the Mountains to Sea planning document [@morton2015]. Our goals with thsi project were
+In this project we focused our research on tributaries of the Kenai and Kasilof rivers; specifically in the lower sections of streams outside of the federally protected Kenai National Wildlife refuge as outlined in the Mountains to Sea planning document [@morton2015]. Our goals with this project were:
 
 1.   Identify land parcels that contain one or more cold water refugia features, and communicate information about these features and possible conservation strategies to land owners
 

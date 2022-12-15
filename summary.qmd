@@ -1,5 +1,49 @@
 # Summary
 
+Overall summary statement/discussion paragraph here ...
+See Mountains to Sea 
+
+## General Recommendations by Stream Corridor
+
+The following are general observations regarding conservation potential for each of the stream corridors in this study. For more details on land ownership and watershed-specific conservation opportunities, see the Mountains to Sea report
+
+
+```{r echo = F}
+# load
+library(tidyverse)
+
+# what are the assessed values and sizes of private parcels with features in each of the corridors?
+
+tbl1 <- read.csv("output/tbl1_parcel_data.csv")
+
+bc_private_vals <- tbl1 %>%
+  filter(Stream_Name == "Beaver Creek" & Owner_Type == "PRIVATE")
+```
+
+
+### Beaver Creek
+
+Beaver Creek runs a total of 21.8 river miles before meeting the Kenai River, with 4.0 of those miles in the lower section outside the Kenai National Wildlife Refuge.
+
+Land ownership in the lower Beaver Creek corridor can be described as very parcelized, with the majority of parcels that are directly adjacent to the creek in private ownership (20 of 28), most of them accessible via Beaver Loop road. In our work, we found that 21 of these parcels contained cold water refugia features (Figure 3.1).
+
+
+
+
+
+
+### Funny River
+
+"Lots of state ownership, only 7 private parcels"
+
+### Moose River
+
+"Too parcelized for meaningful land acquisition?
+
+### Crooked Creek
+
+"very parcelized"
+
 
 
 
