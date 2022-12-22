@@ -64,6 +64,10 @@ See the Project Map (Section 2) section of this report for locations of water te
 
 Locations will also be reflected in the Alaska Center for Conservation Science's AKOATS map ([Alaska Online Aquatic Temperature Site](https://accs.uaa.alaska.edu/aquatic-ecology/akoats/))[^temperature_loggers-1] in Spring 2023.
 
+## Additional Data Preparation
+
+Some water temperature time series downloaded from loggers required additional examination in order to prepare them for submission to AKOATS. See Appendix A, Temperature Logger Data Preparation for additional details.
+
 [^temperature_loggers-1]: https://accs.uaa.alaska.edu/aquatic-ecology/akoats/
 
 <br>

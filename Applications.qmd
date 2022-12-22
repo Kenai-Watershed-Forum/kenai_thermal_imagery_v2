@@ -19,26 +19,11 @@ Access PDFs of submitted Public Comments below:
 xfun::embed_file("documents/City of Kenai Land Management Plan comments 20221031.zip", text = "City of Kenai 2021 Land Management Plan Comments")
 ```
 
-We also communicated with the Snowshoe Gun Club, one of the larger private landowners in the lower Beaver Creek corridor. The gun club's ground footprint currently is set back several hundred yards from adjacent riparian zones and can be considered compatible with fish habitat management.
-
-The Club has expressed interest in developing conservation easement status for part of their current land holdings, along with an adjacent parcel also set on Beaver Creek also currently in private ownership. We provided a custom map (@fig-sgc-map) to highlight cold water refugia features on these parcels, available for download below. Discussions will continue with the Club to determine interest in moving forward with a potential conservation easement.
-
-
-```{r fig-sgc-map, echo = F, out.height=400, out.height=400, fig.cap = "Cold water refugia site highlights near Snowshoe Gun Club"}
-
-#| label: fig-sgc-map
-#| fig-cap: "Cold water refugia site highlights near Snowshoe Gun Club"
-
-knitr::include_graphics('images/Snowshoe_Gun_Club_Thermal_Imagery_map.jpg')
-
-```
-
 ```{r echo = F}
 
 xfun::embed_file("images/Snowshoe_Gun_Club_Thermal_Imagery_map.jpg", text = "Download Map of Cold Water Refugia features near Snowshow Gun Club.")
 
 ```
-
 
 ## Landowner Outreach
 
@@ -68,5 +53,19 @@ We met with state and federal agency staff to discuss the nature of our research
 
 -   In conversations with staff from the Alaska Department of Environmental Conservation (ADEC), we learned more about the process by which new research such as ours may be applied in the future. Emerging research on how water quality issues may affect freshwater fish habitat is typically first evaluated by the Alaska Department of Fish and Game (ADF&G) before being evaluated in a regulatory context such as ADEC. With that in mind, our final reports will be made available to ADF&G staff.
 
--   On June 1, 2022 we met with local U.S. Fish and Wildlife staff to discuss the nature of thermal infrared imagery gathered in summer 2022 for a separate USFWS project related to adult coho salmon movement. These data are currently being evaluated, and it is our hope that they may later also be applicable for the purposes of identify cold water refugia in the conservation priority corridors identified in the Mountains to Sea report[@morton2015]
+-   On June 1, 2022 we met with local U.S. Fish and Wildlife staff to discuss the nature of thermal infrared imagery gathered in summer 2022 for a separate USFWS project related to adult coho salmon movement. These data are currently being evaluated, and it is our hope that they may later also be applicable for the purposes of identify cold water refugia in the conservation priority corridors identified in the Mountains to Sea report [@morton2015]
 
+### Local interest in Conservation Easement
+
+We also communicated with the Snowshoe Gun Club, one of the larger private landowners in the lower Beaver Creek corridor. The gun club's ground footprint currently is set back several hundred yards from adjacent riparian zones and can be considered compatible with fish habitat management.
+
+The Club has expressed interest in developing conservation easement status for part of their current land holdings, along with an adjacent parcel also set on Beaver Creek also currently in private ownership. We provided a custom map (@fig-sgc-map) to highlight cold water refugia features on these parcels, available for download below. Discussions will continue with the Club to determine interest in moving forward with a potential conservation easement.
+
+```{r fig-sgc-map, echo = F, out.height=400, out.height=400, fig.cap = "Cold water refugia site highlights near Snowshoe Gun Club"}
+
+#| label: fig-sgc-map
+#| fig-cap: "Cold water refugia site highlights near Snowshoe Gun Club"
+
+knitr::include_graphics('images/Snowshoe_Gun_Club_Thermal_Imagery_map.jpg')
+
+```

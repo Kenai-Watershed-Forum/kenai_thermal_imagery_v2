@@ -22,7 +22,7 @@ Conservation actions that will result from these efforts include parcel acquisit
 
 ## The Future
 
-Our efforts in applying thermal imagery data for conservation purposes, among others, highlights the value of recognizing cold water refugia as an asset for wild salmon habitat [@snyder2022]. The work described here can continue to expand into additional territiories: there are twenty river corridors of conservation priority described in the Mountains to Sea plan, while we possess aerial thermal infrared imagery on just five (the Anchor river plus the four rivers described in this report) [@mauger2015b].
+Our efforts in applying thermal imagery data for conservation purposes highlights the value of recognizing cold water refugia as an asset for wild salmon habitat [@snyder2022]. The work described here can continue to expand into additional territiories: there are twenty river corridors of conservation priority described in the Mountains to Sea plan, while we possess aerial thermal infrared imagery on just five (the Anchor river plus the four rivers described in this report) [@mauger2015b].
 
 Beyond gathering additional thermal infrared imagery data in order for the work of conserving cold water refugia to have a sustained and widespread impact beyond this project we recommend that future efforts develop Alaska-specific technical and legal definitions, and applying them towards management needs.
 
@@ -42,7 +42,7 @@ In an example from the Columbia River in the Pacific Northwest, the U.S. EPA has
 
 [^index-2]: https://www.epa.gov/columbiariver/columbia-river-cold-water-refuges-plan
 
-Existing efforts to technically define cold water refugia have focused on physiological needs of adult upstream migration. However, salmon at all life stages benefit from a mosaic of water temperature environments, such as when juvenile fry migrate between colder and warmer and areas to feed and digest [@armstrong2013]. Thus it is recommended that future technical definitions also consider the needs of juvenile salmon.
+Existing efforts to technically define cold water refugia have focused on needs of adult upstream migration. However, salmon at all life stages benefit from a mosaic of water temperature environments, such as when juvenile fry migrate between colder and warmer and areas to feed and digest [@armstrong2013]. Thus it is recommended that future technical definitions also consider the needs of juvenile salmon.
 
 ## Next Steps
 

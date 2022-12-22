@@ -1,4 +1,4 @@
-# Temperature Logger Data Preparation
+# Temperature Logger Data Preparation {.appendix}
 
 
 ```{r , include=FALSE}
