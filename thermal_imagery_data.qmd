@@ -106,7 +106,7 @@ write.csv(tbl1,"output/tbl1_parcel_data.csv", row.names = F)
 
 ```
 
-@fig-parcel-plot summarizes the ownership type of these parcels by general category of owner type.
+The figure below summarizes the ownership type of these parcels by general category of owner type.
 
 ```{r, include = F}
 t <- tbl1 %>%
