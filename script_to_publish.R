@@ -21,3 +21,5 @@
 
 # next step: start from scratch with a v3 and re-render piece by piece??
 
+# tried two seperate PCs, neither will publish balnk quarto book template.
+# consider reverting to bookdown???!?!?!?!
