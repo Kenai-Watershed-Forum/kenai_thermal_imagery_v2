@@ -52,7 +52,7 @@ An AKDNR parcel that parallels the Sterling Highway and adjacent subdivisions co
 
 ```{r echo = F}
 
-"very parcelized"
+# "very parcelized"
 
 #muhlfield 2021 https://www.nature.com/articles/s41558-021-01013-w
 
