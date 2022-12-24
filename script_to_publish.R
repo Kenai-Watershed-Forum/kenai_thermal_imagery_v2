@@ -19,5 +19,6 @@
 
 # posted to SO
 
-# next step: start from scratch with a v3 and re-render piece by piece??
+# next step: re-upload current quarto book toi new repo, see if can re-render and republish;
+# transfer content
 
