@@ -22,3 +22,5 @@
 # next step: re-upload current quarto book toi new repo, see if can re-render and republish;
 # transfer content
 
+# tried two seperate PCs, neither will publish balnk quarto book template.
+# consider reverting to bookdown???!?!?!?!
