@@ -10,7 +10,7 @@ project:
 book:
   title: "Kenai Thermal Imagery"
   author: "Benjamin Meyer"
-  date: "11/18/2022"
+  date: "12/23/2022"
   chapters:
     - index.qmd
     - intro.qmd
@@ -22,6 +22,12 @@ book:
     - references.qmd
   appendices:
     - temp_logger_data_prep.qmd
+
+  repo-url: https://github.com/Kenai-Watershed-Forum/kenai_thermal_imagery_v2
+  search:
+    location: sidebar
+    type: textbox
+  downloads: [docx]
 
 
 bibliography: references.bib

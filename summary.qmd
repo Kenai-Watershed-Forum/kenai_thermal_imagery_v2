@@ -4,7 +4,8 @@ The following are general observations regarding conservation potential for each
 
 ## General Recommendations by Stream Corridor
 
-```{r echo = F}
+```{r echo = F, eval = F}
+
 # load
 library(tidyverse)
 
@@ -72,4 +73,3 @@ An AKDNR parcel that parallels the Sterling Highway and adjacent subdivisions co
 
 
 ```
-

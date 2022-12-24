@@ -50,9 +50,6 @@ points_theme <- theme(axis.title = element_text(size = 14, face = "bold"),
 select <- dplyr::select
 ```
 
-
-
-
 The following chapters contain data and analysis related to the Kenai River Thermal Imagery project conducted from 2020 - 2022. This work is a collaborative effort between three Kenai Peninsula Nonprofits: Cook Inletkeeper, Kachemak Bay Heritage Land Trust, and Kenai Watershed Forum. It is funded by the Alaska Sustainable Salmon Fund (project #53003).
 
 ```{r echo = F}
@@ -63,7 +60,7 @@ xfun::embed_file("documents/AKSSF Thermal Imagery SOW.docx", text = "Download th
 
 <br>
 
-This report is generated using Quarto, an open source publishing platform. It is best accessed online at the url <https://kenaiwatershed.quarto.pub/kenai_thermal_imagery/>. 
+This report is generated using Quarto, an open source publishing platform. It is best accessed online at the url <https://kenai-watershed-forum.github.io/kenai_thermal_imagery_v2/>.
 
 ```{r echo = F, eval = F}
 

@@ -23,4 +23,7 @@
 # transfer content
 
 # tried two seperate PCs, neither will publish balnk quarto book template.
-# consider reverting to bookdown???!?!?!?!
+# consider reverting to bookdown???!?!?!?
+
+# successfully published to github pages, but some figures are odd visually and missing x axis details...
+# confirmed same off visual on PC render; not a new issue with GitHub pages
