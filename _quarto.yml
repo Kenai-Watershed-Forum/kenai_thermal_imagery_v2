@@ -1,9 +1,10 @@
-#project:
-#  type: book
-
 project:
-  type: website
+  type: book
   output-dir: docs
+
+#project:
+#  type: website
+#  output-dir: docs
 
 
 book:
