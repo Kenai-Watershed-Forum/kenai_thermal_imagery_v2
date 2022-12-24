@@ -1,5 +1,10 @@
+#project:
+#  type: book
+
 project:
-  type: book
+  type: website
+  output-dir: docs
+
 
 book:
   title: "Kenai Thermal Imagery"
