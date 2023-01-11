@@ -21,7 +21,7 @@ bc_private_vals <- tbl1 %>%
 
 Beaver Creek runs a total of 21.8 river miles before meeting the Kenai River, with 4.0 of those miles in the lower section outside the Kenai National Wildlife Refuge.
 
-Land ownership in the lower Beaver Creek corridor can be described as very parcelized, with the majority of parcels that are directly adjacent to the creek in private ownership (20 of 28), most of them accessible via Beaver Loop road. In our work, we found that 21 of these parcels contained cold water refugia features (Figure 3.1).
+Land ownership in the lower Beaver Creek corridor can be described as very parcelized, with the majority of parcels that are directly adjacent to the creek in private ownership (20 of 28), most of them accessible via Beaver Loop road. In our work, we found that 21 of these parcels contained cold water refugia features (Chapter 3).
 
 In the context of near-term potential conservation opportunities, several categories are highlighted. Several parcels belonging to the City of Kenai are recommended in the 2021 Land Management Plan for rezoning to recognize their conservation value. Our submitted comments support this goal. Additionally, the 160 acre parcel that Snowshoe Gun Club is considering for conservation easement status also stands out. We intend to continue the dialogue with the club to ensure that the opportunity for potential easement status can be easily accessed when they choose to proceed.
 
