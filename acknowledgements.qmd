@@ -1,0 +1,5 @@
+# Acknowledgements {.unnumbered}
+
+Funding for this project came from the Alaska Sustainable Salmon Fund (AKSSF Project #53003), U.S. Fish and Wildlife Service Coastal Program, the William C. Bannerman Foundation, and the Alaska Conservation Foundation.
+
+\newpage

@@ -1,10 +1,12 @@
 # Summary
 
 The following are general observations regarding conservation potential for each of the stream corridors in this study. The stream distance and property ownership information cited is from [@morton2015]. For more details on land ownership and watershed-specific conservation opportunities, see the Mountains to Sea report.
+ 
+
 
 ## General Recommendations by Stream Corridor
 
-```{r echo = F, eval = F}
+```{r echo = F, eval = F, message = F}
 
 # load
 library(tidyverse)
@@ -20,40 +22,41 @@ bc_private_vals <- tbl1 %>%
 ### Beaver Creek
 
 Beaver Creek runs a total of 21.8 river miles before meeting the Kenai River, with 4.0 of those miles in the lower section outside the Kenai National Wildlife Refuge.
+Land ownership in the lower Beaver Creek corridor can be described as very parcelized, with the majority of parcels directly adjacent to the creek in private ownership (20 of 28), most of them accessible via Beaver Loop Road. We found 21 of these parcels contained cold water refugia features (@fig-parcel-plot).
 
-Land ownership in the lower Beaver Creek corridor can be described as very parcelized, with the majority of parcels that are directly adjacent to the creek in private ownership (20 of 28), most of them accessible via Beaver Loop road. In our work, we found that 21 of these parcels contained cold water refugia features (Chapter 3).
+In the context of near-term potential conservation opportunities, several categories are highlighted. Several parcels belonging to the City of Kenai are recommended in the 2021 Land Management Plan for rezoning to recognize their conservation value. Our submitted comments support this goal. Additionally, the 160-acre parcel that Snowshoe Gun Club is considering for conservation easement status also stands out. We intend to continue the dialogue with the Club to ensure that the opportunity for potential easement status can be easily accessed when they choose to proceed.
 
-In the context of near-term potential conservation opportunities, several categories are highlighted. Several parcels belonging to the City of Kenai are recommended in the 2021 Land Management Plan for rezoning to recognize their conservation value. Our submitted comments support this goal. Additionally, the 160 acre parcel that Snowshoe Gun Club is considering for conservation easement status also stands out. We intend to continue the dialogue with the club to ensure that the opportunity for potential easement status can be easily accessed when they choose to proceed.
 
 ### Funny River
 
 Funny River runs a total of 67 river miles before meeting the Kenai River, with 4.5 of those miles in the lower section outside the Kenai National Wildlife Refuge.
+The lower Funny River riparian corridor can be described as primarily under ownership of private individuals, the Alaska Department of Natural Resources (ADNR), and the regional native corporation Cook Inlet Regional Incorporated (CIRI).
 
-The lower Funny River riparian corridor can be described as primarily under ownership of private individuals, the Alaska Department of Natural Resources (AKDNR), and the regional native corporation CIRI (Cook Inlet Regional Incorporated).
-
-In the context of near-term potential for conservation opportunities, several categories are highlighted. An AKDNR parcel that parallels Funny River Road contains a significant cold water feature that we visited on foot ground truth. Future road improvement projects would ideally be cognizant of such features and take efforts to minimize impact from impervious surfaces.
+In the context of near-term potential for conservation opportunities, several categories are highlighted. An ADNR parcel that parallels Funny River Road contains a significant cold-water feature that we visited on foot to ground truth. Future road improvement projects would ideally be cognizant of such features and take efforts to minimize impact from impervious surfaces.
 
 An additional parcel owned by CIRI approximately 4 miles upstream contains a cluster of six cold-water features. This parcel also contains tributaries not currently documented as anadromous but very likely are. We intend to communicate the conservation values of this parcel to CIRI so that they may be best informed for future land management decisions.
 
+
 ### Moose River
 
-Funny River runs a total of 137 river miles before meeting the Kenai River, with 2.2 of those miles in the lower section outside the Kenai National Wildlife Refuge.
+Moose River runs a total of 137 river miles before meeting the Kenai River, with 2.2 of those miles in the lower section outside the Kenai National Wildlife Refuge.
 
 We identified a minimal number of cool-water refugia features in the lower Moose River. All of these features lie on privately owned parcels. In our efforts to contact Moose River landowners to share educational materials we failed to receive responses.
 
-At current time, we intend to continue seeking opportunities to communicate with Moose River landowners. Future community opportunities and events will likely present new opportunties to share our findings with specific landowners.
+We intend to continue seeking opportunities to communicate with Moose River landowners. Future community opportunities and events will likely present new opportunities to share our findings with specific landowners.
+
 
 ### Crooked Creek
 
 Crooked Creek runs a total of 45.9 river miles before meeting the Kasilof River, with 16.8 of those miles in the lower section outside the Kenai National Wildlife Refuge.
-
 In the context of near-term potential for conservation opportunities, several categories are highlighted. The majority of cold-water features (17/25) lie on state-owned land, and are generally clustered together in close groups.
 
-An AKDNR parcel that parallels the Sterling Highway and adjacent subdivisions contains several significant cold water features that we visited on foot ground truth. Future road and home improvement projects would ideally be cognizant of such features and take efforts to minimize impact from impervious surfaces. We recommend a follow-up meeting with AKDNR officials to highlight these results.
+An ADNR parcel that parallels the Sterling Highway and adjacent subdivisions contains several significant cold water features that we visited on foot to ground truth. Future road and home improvement projects would ideally be cognizant of such features and take efforts to minimize impact from impervious surfaces. We recommend a follow-up meeting with ADNR officials to highlight these results.
 
-```{r echo = F}
 
-# "very parcelized"
+```{r echo = F, eval = F}
+
+# 
 
 #muhlfield 2021 https://www.nature.com/articles/s41558-021-01013-w
 
@@ -73,3 +76,5 @@ An AKDNR parcel that parallels the Sterling Highway and adjacent subdivisions co
 
 
 ```
+
+\newpage

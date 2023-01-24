@@ -1,6 +1,5 @@
 # Temperature Logger Data Preparation {.appendix}
 
-
 ```{r , include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, warning = F, message = F)
 # clear environment
@@ -50,10 +49,9 @@ points_theme <- theme(axis.title = element_text(size = 14, face = "bold"),
 select <- dplyr::select
 ```
 
-
 ## Water Temperature Logger Data QA/QC
 
-Water temperarture data retrieved from the field was subjected to a basic quality assurance process before being incorporated into the analysis dataset. We visually inspected each water temperature time series and excluded data indicative of pre/post deployment or exposure. @fig-preqa and @fig-postqa provide a visual example of water temperature time series prior to and post quality assurance processes.
+Water temperature data retrieved from the field was subjected to a basic quality assurance process before being incorporated into the analysis dataset. We visually inspected each water temperature time series and excluded data indicative of pre/post deployment or exposure. @fig-preqa and @fig-postqa provide a visual example of water temperature time series prior to and post quality assurance processes.
 
 ```{r, echo = F}
 ## read in logger data
@@ -317,8 +315,6 @@ ggplotly(
 
 <br>
 
-
-
 ### Additional data preparation
 
 The following sections describe additional details on data preparation specific to each water temperature logger site.
@@ -410,13 +406,13 @@ knitr::include_graphics('images/lower_crooked_creek_temp_logger_map.png')
 
 Cook Inletkeeper maintains a site installed by Beaded Stream (Anchorage, AK) that records air and water temperature data in real-time and streams these data live at <https://inletkeeper.org/our-work/healthy-habitat/real-time-temperature-sites/crooked-creek/>. Water and air temperature data has been recorded and streamed from this site at hourly intervals since summer 2017.
 
-Temperature data from this location can be downloaded as a csv file directly from the above Inletkeeper web link. However, ***as of `r Sys.Date()` there is an error with the publicly available csv file***. The publicly available csv file has incorrect time stamps after 12/31/2019. Beaded Stream staff is aware of the error, and says the remedy will require an in-person visit to the field. In the mean time, [contact Beaded Stream staff](http://www.beadedstream.com/contact/) to request access to most current data.
+Temperature data from this location can be downloaded as a csv file directly from the above Inletkeeper web link. However, ***as of `r Sys.Date()` there is an error with the publicly available csv file***. The publicly available csv file has incorrect time stamps after 12/31/2019. Beaded Stream staff is aware of the error, and says the remedy will require an in-person visit to the field. In the meantime, [contact Beaded Stream staff](http://www.beadedstream.com/contact/) to request access to most current data.
 
 The data with correct time stamps from 2017-08-15 though 2021-10-26, obtained directly from the internal Beaded Stream dashboard, is also available for download at this link from GitHub: [**Download Lower Crooked Creek Realtime Temperature Data**](https://github.com/Kenai-Watershed-Forum/kenai_thermal_imagery/tree/master/input/real_time_temp_sensor).
 
 ##### Lower Crooked Creek HOBO TempPro V2 logger site
 
-A pair of HOBO Temp Pro V2 loggers are installed at a location 20 m upstream from the real-time temperature logger site. Water temperature is recorded at 15 minute intervals.
+A pair of HOBO Temp Pro V2 loggers are installed at a location 20 m upstream from the real-time temperature logger site. Water temperature is recorded at 15-minute intervals.
 
 During a site visit on 7/28/2021, we discovered that this pair of loggers potentially resided within a small, previously unidentified cold water plume incoming from the river-left bank. (On the ArcGIS Online project map, this feature is identified as "tributary_44." It was unclear if the local cold water seep was influencing the loggers in way such that they would not represent main channel temperature.
 

@@ -8,10 +8,11 @@ project:
 
 
 book:
-  title: "Kenai Thermal Imagery"
-  author: "Benjamin Meyer"
-  date: "12/23/2022"
+  title: "Kenai Mountains to Sea: Using Thermal Infrared Imagery to Implement Long-Term Salmon Conservation"
+  author: "Sue Mauger (Cook Inletkeeper), Marie McCarty and Lauren Rusin (Kachemak Heritage Land Trust), Benjamin Meyer (Kenai Watershed Forum)"
+  date: "January 23, 2023"
   chapters:
+    - acknowledgements.qmd
     - index.qmd
     - intro.qmd
     - project_map.qmd
@@ -22,6 +23,7 @@ book:
     - references.qmd
   appendices:
     - temp_logger_data_prep.qmd
+
 
   repo-url: https://github.com/Kenai-Watershed-Forum/kenai_thermal_imagery_v2
   search:
