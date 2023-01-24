@@ -60,7 +60,7 @@ xfun::embed_file("documents/AKSSF Thermal Imagery SOW.docx", text = "Download th
 
 <br>
 
-This report is generated using Quarto, an open source publishing platform. It is best accessed online at the url <https://kenai-watershed-forum.github.io/kenai_thermal_imagery_v2/>.
+This report is generated in [Posit](https://posit.co/) (formerly known as RStudio) using the R programming language [@rcoreteam] and [Quarto](https://quarto.org/), an open source technical publishing platform. It is best accessed online at the url <https://kenai-watershed-forum.github.io/kenai_thermal_imagery_v2/>.
 
 ```{r echo = F, eval = F}
 
@@ -69,8 +69,6 @@ This report is generated using Quarto, an open source publishing platform. It is
 xfun::embed_file("_book/Kenai-Thermal-Imagery_draft.docx", text = "Download This Report as a Microsoft Word Document")
 
 ```
-
-<br>
 
 Source code used to generate this report is available in the project's GitHub repository at <https://github.com/Kenai-Watershed-Forum/kenai_thermal_imagery_v2>.
 

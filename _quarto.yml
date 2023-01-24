@@ -26,6 +26,7 @@ book:
 
 
   repo-url: https://github.com/Kenai-Watershed-Forum/kenai_thermal_imagery_v2
+  repo-actions: [edit]
   search:
     location: sidebar
     type: textbox
@@ -33,6 +34,7 @@ book:
 
 
 bibliography: references.bib
+#csl: transactions-of-the-american-fisheries-society.csl
 
 format:
   html:
@@ -49,4 +51,7 @@ format:
 editor: visual
 
 prefer-html: true
+
+comments:
+  hypothesis: true
 

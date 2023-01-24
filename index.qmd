@@ -12,7 +12,7 @@ Cold water refugia, or areas within a stream that are persistently colder than s
 
 Since 2020, three community-based organizations - Cook Inletkeeper, Kachemak Heritage Land trust, and Kenai Watershed Forum - have worked together to identify where cold water refugia are found in the Kenai Peninsula lowlands, a region where productive wild salmon habitat intersects with a growing development footprint. We used cutting-edge methods to locate cold water refugia with thermal infrared imagery, a technology similar to night vision goggles that shows heat contrast. Our resulting "treasure map" of cold water refugia locations is a valuable tool for prioritizing conservation and outreach efforts.
 
-In this project we focused our research on tributaries of the Kenai and Kasilof rivers; specifically, in the lower sections of streams outside of the federally-protected Kenai National Wildlife refuge as outlined in the Mountains to Sea planning document (Morton et al. 2015). Our goals for this project were to:
+In this project we focused our research on tributaries of the Kenai and Kasilof rivers; specifically, in the lower sections of streams outside of the federally-protected Kenai National Wildlife refuge as outlined in the Mountains to Sea planning document [@morton2015]. Our goals for this project were to:
 
 1.  Identify land parcels that contain one or more cold water refugia features, and communicate information about these features and possible conservation strategies to land owners; and
 2.  Use a variety of techniques to communicate our results to over sixty landowners, agencies, and organizations.
@@ -59,7 +59,9 @@ We will continue to use our existing dataset to prioritize land conservation eff
 
 [^index-3]: https://www.peninsulaclarion.com/sports/refuge-notebook-flying-a-remote-sensing-mission-on-the-refuge/
 
-A two-page project summary titled, "Science Based Land Conservation: Cold Water Stepping Stones" is outlined below in Figure 1. Download a full size version of this information by clicking on the link below.
+A two-page project summary titled, "Science Based Land Conservation: Cold Water Stepping Stones" is outlined below in Figure 1. In the online version of this report[^index-4], download a full size version of the information sheet by clicking on the link below.
+
+[^index-4]: https://kenai-watershed-forum.github.io/kenai_thermal_imagery_v2/
 
 ```{r , echo = F, out.width=400, out.height=500}
 #| label: fig-summary-sheet
