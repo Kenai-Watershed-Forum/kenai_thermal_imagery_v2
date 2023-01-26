@@ -50,7 +50,7 @@ points_theme <- theme(axis.title = element_text(size = 14, face = "bold"),
 select <- dplyr::select
 ```
 
-The following chapters contain data and analysis related to the project conducted 2020 - 2022, "Kenai Mountains to Sea: Using Thermal Infrared Imagery to Implement Long-Term Salmon Conservation." This work is a collaborative effort between three Kenai Peninsula Nonprofits: Cook Inletkeeper, Kachemak Heritage Land Trust, and Kenai Watershed Forum.
+The following chapters contain data and analysis related to the project conducted 2020 - 2022, "Kenai Mountains to Sea: Using Thermal Infrared Imagery to Implement Long-Term Salmon Conservation." This work is a collaborative effort between three Kenai Peninsula Nonprofits: Cook Inletkeeper, Kachemak Heritage Land Trust, and Kenai Watershed Forum. The project Scope of Work document may be downloaded at the link below:
 
 ```{r echo = F}
 
@@ -60,16 +60,14 @@ xfun::embed_file("documents/AKSSF Thermal Imagery SOW.docx", text = "Download th
 
 <br>
 
-This report is generated in [Posit](https://posit.co/) (formerly known as RStudio) using the R programming language [@rcoreteam] and [Quarto](https://quarto.org/), an open source technical publishing platform. It is best accessed online at the url <https://kenai-watershed-forum.github.io/kenai_thermal_imagery_v2/>.
+This report is generated in [Posit](https://posit.co/) (formerly known as RStudio) using the R programming language [@rcoreteam] and [Quarto](https://quarto.org/), an open source technical publishing platform. It is best accessed online at the url <https://kenai-watershed-forum.github.io/kenai_thermal_imagery_v2/>. 
 
-```{r echo = F, eval = F}
+## Access the PDF
+This report can be downloaded as a PDF document by clicking on the PDF symbol in the upper left corner of this screen.
 
-# The contents of this report can also be downloaded as an Microsoft Word document here:
+## Access Source Code
+Source code used to generate this report is available in the project's GitHub repository, available by clicking the feline symbol in the upper left corner of this screen.
 
-xfun::embed_file("_book/Kenai-Thermal-Imagery_draft.docx", text = "Download This Report as a Microsoft Word Document")
 
-```
-
-Source code used to generate this report is available in the project's GitHub repository at <https://github.com/Kenai-Watershed-Forum/kenai_thermal_imagery_v2>.
 
 \newpage

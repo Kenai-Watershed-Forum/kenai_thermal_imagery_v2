@@ -30,7 +30,7 @@ book:
   search:
     location: sidebar
     type: textbox
-  downloads: [docx]
+  downloads: [pdf]
 
 
 bibliography: references.bib
@@ -52,6 +52,6 @@ editor: visual
 
 prefer-html: true
 
-comments:
-  hypothesis: true
+#comments:
+#  hypothesis: true
 
