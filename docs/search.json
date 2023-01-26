@@ -144,6 +144,10 @@
     "href": "intro.html#access-source-code",
     "title": "1  Introduction",
     "section": "1.2 Access Source Code",
+<<<<<<< HEAD
     "text": "1.2 Access Source Code\nSource code used to generate this report is available in the project’s GitHub repository, available by clicking the feline symbol in the upper left corner of this screen.\n\n\n\n\n\nR Core team. n.d. A Language and Environment for Statistical Computing. R Foundation for Statistical Computing, Vienna, Austria. https://www.R-project.org/."
+=======
+    "text": "1.2 Access Source Code\nSource code used to generate this report is available in the project’s GitHub repository, available by clicking the feline symbol in the upper left corner of this screen.\nThis report can be downloaded\n\n\n\n\n\nR Core team. n.d. A Language and Environment for Statistical Computing. R Foundation for Statistical Computing, Vienna, Austria. https://www.R-project.org/."
+>>>>>>> 60b80467b22ef657bbcb937c3affe001bfeda2cf
   }
 ]
